@@ -1,0 +1,47 @@
+.TH man 3 2021-10-04 "1" "_printf man page"
+.SH NAME
+.B _printf
+- printf function
+
+.SH SYNOPSIS
+.B #include "main.h"
+
+.B int _printf(const char \fI*format\fR,
+.B ...)
+
+printf function depends on the #include "main.h" header.
+
+.SH DESCRIPTION
+The _printf() function produces output according to a format which is described
+below. This function write its output to the stdout, the standard output stream.
+
+.SH USAGE
+To use _printf you have to use the following key characters preceeded by % symbol.
+.TP
+.RS 3
+%c: Prints characters
+.TP
+.RS 0
+%s: Prints strings
+.TP
+.RS 0
+%d: Prints integers of max and min size of an int type
+.TP
+.RS 0
+%i: Prints integers of max and min size of an int type
+.TP
+.RS 0
+%b: Prints a number in binary form
+
+.SH RETURN VALUES
+The _printf() function returns an integer representing the number of symbols
+printed not counting \\0 for the string.
+
+.SH SEE ALSO
+.I printf(3)
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+Kevin Oyugi && Jesse Maina
