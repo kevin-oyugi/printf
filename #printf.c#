@@ -1,21 +1,4 @@
-#include "main.h"
-#include <stdlib.h>
-
-/**
- * check_for_specifiers - checks if there is a valid format specifier
- * @format: possible format specifier
- *
- * Return: pointer to valid function or NULL
- */
-static int (*check_for_specifiers(const char *format))(va_list)
-{
-	unsigned int i;
-	print_t p[] = {
-		{"c", print_c},
-		{"s", print_s},
-		{"d", print_d},
-		{"i", print_i},
-		{"b", print_b},
+int_b},
 		{"u", print_u},
 		{"o", print_o},
 		{"x", print_x},
