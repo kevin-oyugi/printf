@@ -42,7 +42,7 @@ int print_hex(unsigned int n, unsigned int c)
 }
 
 /**
- * main: print_x - takes an unsigned int and prints it in lowercase hex notation
+ * print_x - takes an unsigned int and prints it in lowercase hex notation
  * description:
  * @x: unsigned int to print
  *
@@ -54,7 +54,7 @@ int print_x(va_list x)
 }
 
 /**
- * main: print_X - takes am unsigned int and prints it in uppercase hex notation
+ * print_X - takes am unsigned int and prints it in uppercase hex notation
  * description:
  * @X: unsigned int to print
  *
